@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(201, 201, 201);
+}
+
+header {
+    background-color: gray;
+    margin-bottom: 5rem;
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Titillium Web", sans-serif;
+}
+
+header h1 {
+    justify-content: center;
+    font-size: 4vh;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+header .navbar {
+    display: flex;
+    position: relative;
+    margin-top: 4rem;
+}
+
+header .navbar nav .lista {
+    list-style: none;
+}
+
+header .navbar .lista li {
+    margin: 0 2rem;
+    font-size: 2.5vh;
+    display: inline;
+}
+
+header li a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+
+.swiper {
+    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.swiper .description {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: "Rubik Dirt", serif;
+}
+
+.imgSlider {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 30px;
+}
+
+.preco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.preco p {
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.feedback .nome {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.feedback .mensagem {
+    font-size: larger;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.swiper .botAdiquira {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.botAdiquira a {
+    text-decoration: none;
+    font-size: 2vh;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 2px;
+    color: black;
+}
+
+.botAdiquira a:hover {
+    text-decoration: none;
+    font-size: 2vh;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 4px;
+    color: black;
+}
+
+.swiper-button-prev {
+    margin-left: 1rem;
+    padding: 8px 13px;
+    border-radius: 40%;
+    background-color: grey;
+    color: white;
+}
+
+.swiper-button-next {
+    margin-right: 1rem;
+    padding: 8px 13px;
+    border-radius: 40%;
+    background-color: grey;
+    color: white;
+}
+
+.cepPesq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cepPesq input {
+    background-color: rgb(180, 180, 180);
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 1.3rem;
+}
+
+.cepPesq input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    background-color: gray;
+}
+
+footer ul {
+    margin-top: 5px;
+}
+
+footer ul li{
+    display: inline;
+    padding: 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
